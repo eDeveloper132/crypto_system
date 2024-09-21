@@ -1,6 +1,5 @@
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
 import { parseCookies } from 'nookies';
-import 'dotenv/config';
 
 export function apiServices(ctx: any) {
   const api = axios.create({
