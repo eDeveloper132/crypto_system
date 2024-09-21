@@ -84,7 +84,7 @@ function TableRow({element, index}:any)  {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
 return (
-  <Tr key={element.id} display="flex">
+  <Tr key={index} display="flex">
     <TdComponent isNumber element={index + 1} width={70} />
     <TdComponent width={100}>
       <Flex width="full" justify="center">
