@@ -76,7 +76,7 @@ function TableComponentBodyComponent({
       <Toaster />
       {coins.map((element, index) => {
 
-        return <TableRow  element={element} index={index}/>;
+        return <TableRow  element={element} index={index} key={index}/>;
       })}
     </Tbody>
   );
